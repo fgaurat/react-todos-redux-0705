@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { reducerTodos } from './store/todos.store';
-import { createStore,combineReducers, applyMiddleware } from 'redux';
+import { createStore,combineReducers, applyMiddleware,compose } from 'redux';
 import thunk from 'redux-thunk';
 
 
